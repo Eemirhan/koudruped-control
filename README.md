@@ -14,9 +14,7 @@ This repository contains **my part of the project**: the leg kinematics, gait si
 
 | Folder | Content |
 |---|---|
-| `matlab/` | Inverse kinematics scripts and leg workspace plots |
-| `simulink/` | Simscape Multibody model of the robot, gait and balance controller |
-| `media/` | Images used in this README |
+| `matlab/` | Simscape Multibody model of the robot, gait and balance controller |
 
 ## 1. Kinematics
 
@@ -62,17 +60,17 @@ The controller keeps the body parallel to the ground on slopes and under disturb
 
 ## 4. On the real robot
 
-The team built the robot from 3D-printed parts, with RDS3235 servos and a Raspberry Pi 5. I helped with assembly and integration, and transferred the controller logic from this model to the robot. In hardware tests:
+We built the robot from 3D-printed parts, with RDS3235 servos and a Raspberry Pi 5. I helped with assembly and integration, and transferred the controller logic from this model to the robot. In hardware tests:
 
 - After calibrating joint offsets, the foot-tip error was within **5 mm**.
 - With IMU feedback, the body stayed level on **10° slopes**.
 
-Walking on the real robot was not as smooth as in simulation. Limited time and battery constraints kept us from fully tuning the gaits on hardware, and this is the main next step.
+Walking on the real robot was not as smooth as in simulation. Limited time and mass distribution constraints kept us from fully tuning the gaits on hardware, and this is the main next step.
 
 ## Team
 
 - **Emirhan Keşkek:** kinematics, Simulink / Simscape simulation and control, assembly and testing
-- **Ali Haydar Yıldırım** and **Fatih İnan:** mechanical design, electronics and robot software
+- **Ali Haydar Yıldırım** and **Fatih İnan:** mechanical design, electronics and some software
 
 Supervisor: Dr. Haluk Özakyol, Kocaeli University
 

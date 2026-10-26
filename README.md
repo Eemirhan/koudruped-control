@@ -7,8 +7,10 @@
 This repository contains **my part of the project**: the kinematic model, gait simulations and body-balance controller, built in MATLAB/Simulink and Simscape Multibody.
 
 <p align="center">
-  <img src="media/robot_real.jpg" width="48%" />
-  <img src="media/robot_cad.png" width="48%" />
+  <img src=<img width="3024" height="3024" alt="WhatsApp Image 2026-10-26 at 15 17 54" src="https://github.com/user-attachments/assets/24dab15b-5335-48ca-b1c3-d0d203fc6006" />
+ width="48%" />
+  <img src=<img width="690" height="527" alt="image" src="https://github.com/user-attachments/assets/8f82665e-acaa-46dd-989b-b4c20a635dc2" />
+ width="48%" />
 </p>
 
 ## What's inside

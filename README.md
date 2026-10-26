@@ -1,8 +1,8 @@
 # KOUDRUPED – Quadruped Kinematics, Gait & Balance Control
 
 <p align="center">
-  <img src="media/robot_real.jpg" width="48%" />
-  <img src="media/robot_cad.png" width="48%" />
+  <img src="robot_real.jpg" width="48%" />
+  <img src="robot_cad.png" width="48%" />
 </p>
 <p align="center"><i>Left: the built robot. Right: CAD model.</i></p>
 
@@ -23,13 +23,13 @@ This repository contains **my part of the project**: the leg kinematics, gait si
 Each leg is a 3-DOF chain: shoulder (θ1), hip (θ2) and knee (θ3). I defined the kinematic chain, which the team then used as the basis for the mechanical design.
 
 <p align="center">
-  <img src="media/ik_front.png" height="380" />
-  <img src="media/ik_side.png" height="380" />
+  <img src="ik_front.png" height="380" />
+  <img src="ik_side.png" height="380" />
 </p>
 <p align="center"><i>Link definitions: hip offset (top view), upper leg / femur and lower leg / tibia (side view).</i></p>
 
 <p align="center">
-  <img src="media/leg_kinematics.png" width="45%" />
+  <img src="leg_kinematics.png" width="45%" />
 </p>
 <p align="center"><i>Joint coordinate frames on the leg.</i></p>
 
@@ -41,7 +41,7 @@ I solved the inverse kinematics **geometrically**, using closed-form trigonometr
 ## 2. Physical simulation (Simscape Multibody)
 
 <p align="center">
-  <img src="media/standup.png" width="70%" />
+  <img src="standup.png" width="70%" />
 </p>
 <p align="center"><i>The robot in Simscape Multibody.</i></p>
 
